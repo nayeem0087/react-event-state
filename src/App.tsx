@@ -1,5 +1,6 @@
 import "./App.css";
-import Cart from "./Cart";
+import Batter from "./Batter";
+// import Cart from "./Cart";
 import Counter from "./Counter";
 
 
@@ -25,8 +26,9 @@ function App() {
 
       <button onClick={() => handleAddToCart(65)}>Buy this</button> */}
 
-      <Cart></Cart>
+      {/* <Cart></Cart> */}
       <Counter></Counter>
+      <Batter></Batter>
 
     </>
   );
